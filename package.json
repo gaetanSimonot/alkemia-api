@@ -5,8 +5,5 @@
   "type": "module",
   "dependencies": {
     "openai": "^4.0.0"
-  },
-  "scripts": {
-    "start": "node api/generate-posts.js"
   }
 }
