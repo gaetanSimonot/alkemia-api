@@ -1,5 +1,12 @@
 {
   "name": "alkemia-backend",
   "version": "1.0.0",
-  "description": "API pour Alkemia Post Generator"
+  "description": "API pour Alkemia Post Generator",
+  "type": "module",
+  "dependencies": {
+    "openai": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node api/generate-posts.js"
+  }
 }
